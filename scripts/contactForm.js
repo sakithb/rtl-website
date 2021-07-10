@@ -19,8 +19,8 @@
 //     alert(error))
 // }
 
-// function enableSubmitBtn() {
-//   document.getElementById("contactSubmitBtn").disabled = false;
-// }
+function enableSubmitBtn() {
+  document.getElementById("contactSubmitBtn").disabled = false;
+}
 
-document.querySelector("#contactForm").addEventListener("submit", handleSubmit);
+// document.querySelector("#contactForm").addEventListener("submit", handleSubmit);
