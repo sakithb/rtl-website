@@ -1,0 +1,24 @@
+.seperator {
+    width: 100px;
+    height: 20px;
+    border-top: 1px solid #868686;
+    margin-top: 20px;
+}
+
+.section-img-div {
+    width: 100%
+}
+
+.section-p-div {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-p-div {
+        max-width: 40%;
+    }
+
+    .section-img-div {
+        width: 40%
+    }
+}

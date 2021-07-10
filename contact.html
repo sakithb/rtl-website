@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us - Reliable Trans Logistics</title>
     <link rel="stylesheet" href="./styles/floatingButton.css">
-    <link rel="stylesheet" href="./styles/flexDiv.css">
     <link href="./bootstrap/bootstrap.min.css" rel="stylesheet">
+    <title>Contact Us - Reliable Trans Logistics</title>
     <style>
+        .seperator {
+            width: 100px;
+            height: 20px;
+            border-top: 1px solid #868686;
+            margin-top: 20px;
+        }
         .footer .link-light:hover{
     color: #C5C6C6;
 }
@@ -44,11 +49,11 @@
             </a>
             <div class="collapse navbar-collapse text-uppercase" id="navbarLinks">
                 <ul class="nav navbar-nav ms-auto">
-                    <li class="nav-item active p-2">
+                    <li class="nav-item p-2">
                         <a href="./" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a href="#" class="nav-link active">About</a>
+                        <a href="./about.html" class="nav-link">About</a>
                     </li>
                     <div class="d-inline-flex justify-content-center">
                         <li class="nav-item py-2 pl-2">
@@ -69,69 +74,55 @@
                         </li>
                     </div>
                     <li class="nav-item p-2">
-                        <a href="./contact.html" class="nav-link">Contact</a>
+                        <a href="#" class="nav-link active">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section class="mb-2" style="background-color: #EFEFEF;">
-        <div class="mx-5 d-flex flex-column flex-md-row justify-content-around py-5">
-            <div class="section-img-div mb-5 mb-md-0">
-                <img src="./Images/aboutimage.jpg" class=" w-100" alt="">
-            </div>
-            <div class="section-p-div">
-                <span class="h2">ABOUT RELIABLE TRANS LOGISTICS</span>
-                <div class="seperator"></div>
-                <p class="lead">
-                    We Reliable Trans Logistics, energetic young professionals has formed the successful freight
-                    forwarding company in Sri Lanka which operates as a dynamic non vessel operating common carrier
-                    (NVOCC) covering the total logistics solutions including Multi country Consolidation /Custom House
-                    Brokerage / Inbound Outbound FCL /LCL and Air Cargo and warehousing.
-
-                    We included a new adventure to the shipping industry and we greatly take pleasure to provide the
-                    best service with a positive impact and in becoming our client’s ultimate logistic provider. Our
-                    young energetic team is headed by several individuals who count many years of constructive and
-                    gainful experience in Shipping/Freight Forwarding.
-
-                    You will experience exceptional service at all levels by professionals dedicated to ensuring
-                    customer satisfaction and our professionals will make sure that our service for your is a “ RELIABLE
-                    CARGO SOLUTION”
-                </p>
-            </div>
-        </div>
+    <section class="container-fluid mb-5">
+        <img src="./Images/contactusimage.jpg" class="w-100" alt="">
     </section>
-    <section class="mb-2" style="background-color: #EFEFEF;">
-        <div class="mx-5 d-flex flex-column justify-content-around flex-md-row-reverse py-5">
-            <div class="section-img-div mb-5 mb-md-0">
-                <img src="./Images/vision.jpg" class=" w-100" alt="">
-            </div>
-            <div class="section-p-div">
-                <span class="h2">OUR VISION</span>
+    <section class="container mb-5">
+        <div class="row">
+            <div class="col">
+                <span class="h2">STAY IN TOUCH WITH US</span>
                 <div class="seperator"></div>
-                <p class="lead">
-                    To become a leader in the business known for pioneering solutions in logistics, worldwide and to be
-                    the integrated transportation company with the goal to serve the logistic needs of customers and
-                    provide the best service to our customers which will become the most successful freight forwarding
-                    company with a positive impact on the customers we serve and increase revenue to our employees we
-                    support.
-                </p>
+                <p class="lead my-5">Contact us today and our staff members will help you find the ideal supply chain
+                    strategy for your business.</p>
+                <div class="mt-5">
+                    <span class="h3">RELIABLE TRANS LOGISTICS</span>
+                    <p class="lead">81/1/5 Bristol Paradise Building,<br>
+                        Bristol Street, Colombo 01,<br>
+                        Sri Lanka.</p>
+                    <p class="lead my-3">Hotline: <span class="text-danger">0777 036124</span></p>
+                    <p class="lead">
+                        ales@reliabletranslogistics.com<br>
+                        ops@reliabletranslogistics.com
+                    </p>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="mb-2" style="background-color: #EFEFEF;">
-        <div class="mx-5 d-flex flex-column flex-md-row justify-content-around py-5">
-            <div class="section-img-div mb-5 mb-md-0">
-                <img src="./Images/mission.jpg" class="w-100" alt="">
-            </div>
-            <div class="section-p-div">
-                <span class="h2">OUR MISSION</span>
-                <div class="seperator"></div>
-                <p class="lead">
-                    Create benchmarks of reliable quality, consistency and commitment in the integrated logistics
-                    business worldwide. Our purpose as a freight forwarding company is to provide superior customer
-                    service and exercise a positive impact on the community and environment.
-                </p>
+            <div class="col">
+                <form class="d-flex flex-column align-items-center">
+                    <div class="mb-3 w-100">
+                        <label for="inputName" class="form-label">Your Name (required)</label>
+                        <input type="email" class="form-control" placeholder="Enter Your Name" id="inputName">
+                    </div>
+                    <div class="mb-3 w-100">
+                        <label for="inputEmail" class="form-label">Your Email (required)</label>
+                        <input type="password" class="form-control" placeholder="Enter Email Address" id="inputEmail">
+                    </div>
+                    <div class="mb-3 w-100">
+                        <label for="inputSubject" class="form-label">Subject (required)</label>
+                        <input type="password" class="form-control" placeholder="Enter Subject" id="inputSubject">
+                    </div>
+                    <div class="mb-3 w-100">
+                        <label for="messageInput" class="form-label">Your Message (required)</label>
+                        <textarea class="form-control" id="messageInput" rows="5"></textarea>
+                    </div>
+                    <div class="g-recaptcha mb-3" data-sitekey="your_site_key"></div>
+                    <button type="submit" class="btn text-light" style="background-color: #25274D;">Submit</button>
+                </form>
             </div>
         </div>
     </section>
@@ -183,6 +174,7 @@
     </section>
     <script src="./bootstrap/bootstrap.min.js"></script>
     <script src="floatButtonFunctionalty.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 
 </html>
