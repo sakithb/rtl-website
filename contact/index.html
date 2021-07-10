@@ -103,7 +103,7 @@
                 </div>
             </div>
             <div class="col">
-                <form id="contactForm" class="d-flex flex-column align-items-center" name="contact" method="POST" data-netlify="true">
+                <form id="contactForm" class="d-flex flex-column align-items-center" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                     <div class="mb-3 w-100">
                         <label for="inputName" class="form-label">Your Name (required)</label>
                         <input type="text" name="name" class="form-control" placeholder="Enter Your Name" id="inputName">
@@ -120,7 +120,7 @@
                         <label for="messageInput" class="form-label">Your Message (required)</label>
                         <textarea id="inputMessage" name="message" class="form-control" name="message" id="messageInput" rows="5"></textarea>
                     </div>
-                    <div class="g-recaptcha mb-3" data-sitekey="6Lf0yYgbAAAAACExLspLBbakKYJmFMCY9gKXbCXs" data-callback="enableSubmitBtn"></div>
+                    <div data-netlify-recaptcha="true"></div>
                     <button id="contactSubmitBtn" type="submit" class="btn text-light" style="background-color: #25274D;" disabled="true">Submit</button>
                 </form>
             </div>
@@ -179,7 +179,6 @@
   document.getElementById("contactSubmitBtn").disabled = false;
 }
     </script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 
 </html>
