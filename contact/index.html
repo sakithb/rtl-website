@@ -120,7 +120,7 @@
                         <label for="messageInput" class="form-label">Your Message (required)</label>
                         <textarea id="inputMessage" name="message" class="form-control" name="message" id="messageInput" rows="5"></textarea>
                     </div>
-                    <div data-netlify-recaptcha="true"></div>
+                    <div class="g-recaptcha mb-3" data-sitekey="6Lf0yYgbAAAAACExLspLBbakKYJmFMCY9gKXbCXs" data-callback="enableSubmitBtn"></div>
                     <button id="contactSubmitBtn" type="submit" class="btn text-light" style="background-color: #25274D;" disabled="true">Submit</button>
                 </form>
             </div>
@@ -179,6 +179,7 @@
   document.getElementById("contactSubmitBtn").disabled = false;
 }
     </script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 
 </html>
