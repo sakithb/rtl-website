@@ -45,7 +45,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a href="./" class="navbar-brand mx-auto">
-                <img src="/Images/logo.jpg" width="200px" alt="Reliable Trans Logistics">
+                <img src="./images/logo.jpg" width="200px" alt="Reliable Trans Logistics">
             </a>
             <div class="collapse navbar-collapse text-uppercase" id="navbarLinks">
                 <ul class="nav navbar-nav ms-auto">
@@ -53,23 +53,23 @@
                         <a href="./" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a href="./about.html" class="nav-link">About</a>
+                        <a href="./about" class="nav-link">About</a>
                     </li>
                     <div class="d-inline-flex justify-content-center">
                         <li class="nav-item py-2 pl-2">
-                            <a href="./services.html" class="px-1 nav-link">Services</a>
+                            <a href="./services" class="px-1 nav-link">Services</a>
                         </li>
                         <li class="nav-item dropdown py-2 pr-2">
                             <a href="#" class="px-1 nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"></a>
                             <ul class="dropdown-menu dropdown-menu-end" id="services-dropdown">
-                                <li><a href="./services.html#seafright" class="dropdown-item">Sea Freight</a></li>
-                                <li><a href="./services.html#airfright" class="dropdown-item">Air Freight</a></li>
-                                <li><a href="./services.html#customs" class="dropdown-item">Customs Clearance</a></li>
-                                <li><a href="./services.html#landtransport" class="dropdown-item">Land Transportation</a>
+                                <li><a href="./services#seafright" class="dropdown-item">Sea Freight</a></li>
+                                <li><a href="./services#airfright" class="dropdown-item">Air Freight</a></li>
+                                <li><a href="./services#customs" class="dropdown-item">Customs Clearance</a></li>
+                                <li><a href="./services#landtransport" class="dropdown-item">Land Transportation</a>
                                 </li>
-                                <li><a href="./services.html#multicountry" class="dropdown-item">Multi Country
+                                <li><a href="./services#multicountry" class="dropdown-item">Multi Country
                                         Consolidation</a></li>
-                                <li><a href="./services.html#warehousing" class="dropdown-item">Warehousing</a></li>
+                                <li><a href="./services#warehousing" class="dropdown-item">Warehousing</a></li>
                             </ul>
                         </li>
                     </div>
@@ -81,7 +81,7 @@
         </div>
     </nav>
     <section class="container-fluid mb-5">
-        <img src="./Images/contactusimage.jpg" class="w-100" alt="">
+        <img src="../images/contactusimage.jpg" class="w-100" alt="">
     </section>
     <section class="container mb-5">
         <div class="row">
@@ -103,7 +103,7 @@
                 </div>
             </div>
             <div class="col">
-                <form class="d-flex flex-column align-items-center">
+                <form id="contactForm" class="d-flex flex-column align-items-center" name="contact" method="POST" data-netlify="true">
                     <div class="mb-3 w-100">
                         <label for="inputName" class="form-label">Your Name (required)</label>
                         <input type="email" class="form-control" placeholder="Enter Your Name" id="inputName">
@@ -120,8 +120,8 @@
                         <label for="messageInput" class="form-label">Your Message (required)</label>
                         <textarea class="form-control" id="messageInput" rows="5"></textarea>
                     </div>
-                    <div class="g-recaptcha mb-3" data-sitekey="your_site_key"></div>
-                    <button type="submit" class="btn text-light" style="background-color: #25274D;">Submit</button>
+                    <div class="g-recaptcha mb-3" data-sitekey="6Lf0yYgbAAAAACExLspLBbakKYJmFMCY9gKXbCXs" data-callback="enableSubmitBtn"></div>
+                    <button id="contactSubmitBtn" type="submit" class="btn text-light" style="background-color: #25274D;" disabled="true">Submit</button>
                 </form>
             </div>
         </div>
@@ -131,15 +131,15 @@
             <div class="px-3 my-5 my-md-0 fs-6">
                 <p class="h5 ">Services</p>
                 <ul class="list-unstyled">
-                    <li><a href="./services.html#seafright" class="text-decoration-none link-light">Sea Freight</a></li>
-                    <li><a href="./services.html#airfright" class="text-decoration-none link-light">Air Freight</a></li>
-                    <li><a href="./services.html#customs" class="text-decoration-none link-light">Customs Clearance</a>
+                    <li><a href="./services#seafright" class="text-decoration-none link-light">Sea Freight</a></li>
+                    <li><a href="./services#airfright" class="text-decoration-none link-light">Air Freight</a></li>
+                    <li><a href="./services#customs" class="text-decoration-none link-light">Customs Clearance</a>
                     </li>
-                    <li><a href="./services.html#landtransport" class="text-decoration-none link-light">Land
+                    <li><a href="./services#landtransport" class="text-decoration-none link-light">Land
                             Transportation</a></li>
-                    <li><a href="./services.html#multicountry" class="text-decoration-none link-light">Multi Country
+                    <li><a href="./services#multicountry" class="text-decoration-none link-light">Multi Country
                             Consolidation</a></li>
-                    <li><a href="./services.html#warehousing" class="text-decoration-none link-light">Warehousing</a>
+                    <li><a href="./services#warehousing" class="text-decoration-none link-light">Warehousing</a>
                     </li>
                 </ul>
             </div>
@@ -157,10 +157,10 @@
                 <p class="ms-3">sales@reliabletranslogistics.com<br>ops@translogistics.com</p>
                 <spam class="d-block">
                     <a class="btn p-0" href="https://api.whatsapp.com/send?phone=+94777036124">
-                        <img src="./Images/whatsapp.png" alt="Whatsapp" style="width: 30px;">
+                        <img src="../images/whatsapp.png" alt="Whatsapp" style="width: 30px;">
                     </a>
                     <a class="btn p-0" href="viber://chat?number=+94777036124">
-                        <img src="./Images/viber.png" alt="Viber" style="width: 30px;">
+                        <img src="../images/viber.png" alt="Viber" style="width: 30px;">
                     </a>
                 </spam>
             </div>
@@ -173,7 +173,8 @@
         </div>
     </section>
     <script src="./bootstrap/bootstrap.min.js"></script>
-    <script src="floatButtonFunctionalty.js"></script>
+    <script src="./scripts/floatButtonFunctionalty.js"></script>
+    <script src="./scripts/contactForm.js"></script>
     <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 
