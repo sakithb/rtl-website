@@ -174,7 +174,11 @@
     </section>
     <script src="../bootstrap/bootstrap.min.js"></script>
     <script src="../scripts/floatButtonFunctionalty.js"></script>
-    <script src="../scripts/contactForm.js"></script>
+    <script>
+        function enableSubmitBtn() {
+  document.getElementById("contactSubmitBtn").disabled = false;
+}
+    </script>
     <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 
