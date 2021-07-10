@@ -18,7 +18,7 @@ function scrollFunction() {
 topButton.addEventListener("click", backToTop);
 waButton.addEventListener("click", function () {
   window.location.href =
-    "https://web.whatsapp.com/send?phone=94777036124&text=";
+    "https://web.whatsapp.com/send?phone=94766625285&text=";
 });
 
 function backToTop() {
