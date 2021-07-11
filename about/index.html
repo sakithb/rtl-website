@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="../styles/floatingButton.css">
     <link rel="stylesheet" href="../styles/flexDiv.css">
     <link href="../bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script src="../scripts/lazysizes.min.js" async></script>
+    <script src="../bootstrap/bootstrap.min.js" defer></script>
+    <script src="../scripts/floatButtonFunctionalty.js" defer></script>
     <style>
         .footer .link-light:hover{
     color: #C5C6C6;
@@ -78,7 +81,7 @@
     <section class="mb-2" style="background-color: #EFEFEF;">
         <div class="mx-5 d-flex flex-column flex-md-row justify-content-around py-5">
             <div class="section-img-div mb-5 mb-md-0">
-                <img src="../images/about_image.webp" class=" w-100" alt="">
+                <img data-src="../images/about_image.webp" class="lazyload w-100" alt="">
             </div>
             <div class="section-p-div">
                 <span class="h2">ABOUT RELIABLE TRANS LOGISTICS</span>
@@ -104,7 +107,7 @@
     <section class="mb-2" style="background-color: #EFEFEF;">
         <div class="mx-5 d-flex flex-column justify-content-around flex-md-row-reverse py-5">
             <div class="section-img-div mb-5 mb-md-0">
-                <img src="../images/vision.webp" class=" w-100" alt="">
+                <img datasrc="../images/vision.webp" class="lazyload w-100" alt="">
             </div>
             <div class="section-p-div">
                 <span class="h2">OUR VISION</span>
@@ -122,7 +125,7 @@
     <section class="mb-2" style="background-color: #EFEFEF;">
         <div class="mx-5 d-flex flex-column flex-md-row justify-content-around py-5">
             <div class="section-img-div mb-5 mb-md-0">
-                <img src="../images/mission.webp" class="w-100" alt="">
+                <img data-src="../images/mission.webp" class="lazyload w-100" alt="">
             </div>
             <div class="section-p-div">
                 <span class="h2">OUR MISSION</span>
@@ -155,8 +158,8 @@
             <div class="px-3 my-5 my-md-0 fs-6">
                 <p class="h5 ">Location</p>
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7920.529590566285!2d79.92268112149272!3d6.978051279233301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae257fb99855535%3A0xcf2afe16fdea46bc!2sKiribathgoda!5e0!3m2!1sen!2slk!4v1624473642021!5m2!1sen!2slk"
-                    width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7920.529590566285!2d79.92268112149272!3d6.978051279233301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae257fb99855535%3A0xcf2afe16fdea46bc!2sKiribathgoda!5e0!3m2!1sen!2slk!4v1624473642021!5m2!1sen!2slk"
+                    width="100%" height="180" style="border:0;" allowfullscreen="" class="lazyload"></iframe>
             </div>
             <div class="px-3 my-5 my-md-0 fs-6">
                 <p class="h5 ">Contact US</p>
@@ -164,10 +167,10 @@
                 <p class="mb-0">Email : yasanthak@gmail.com</span>
                 <span class="d-block">
                     <a class="btn p-0" href="https://api.whatsapp.com/send?phone=+94766625285">
-                        <img src="../images/whatsapp.webp" alt="Whatsapp" style="width: 30px;">
+                        <img data-src="../images/whatsapp.webp" class="lazyload" alt="Whatsapp" style="width: 30px;">
                     </a>
                     <a class="btn p-0" href="viber://chat?number=+94766625285">
-                        <img src="../images/viber.webp" alt="Viber" style="width: 30px;">
+                        <img data-src="../images/viber.webp" class="lazyload" alt="Viber" style="width: 30px;">
                     </a>
                 </span>
             </div>
@@ -179,8 +182,6 @@
                     class="text-decoration-none link-light">Sakith B.</a></span>
         </div>
     </section>
-    <script src="../bootstrap/bootstrap.min.js"></script>
-    <script src="../scripts/floatButtonFunctionalty.js"></script>
 </body>
 
 </html>
